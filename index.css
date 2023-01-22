@@ -1,0 +1,144 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html,
+body,
+p {
+    margin: 0;
+}
+
+
+/* Header Section */
+
+header {
+    padding: 1em .5em;
+    margin: 0;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon-one,
+.icon-three {
+    height: 2em;
+    width: 2em;
+}
+
+.icon-two {
+    height: 2em;
+    width: 4em;
+}
+
+/* Main Section */
+
+img {
+    width: 100%;
+}
+
+.dog {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.dog-info {
+    position: relative;
+    text-align: left;
+}
+
+.dog-img {
+    border-radius: 15px;
+}
+
+.dog-description {
+    position: absolute;
+    bottom: 10px;
+    left: 16px;
+}
+
+.name-age {
+    font-family: 'Poppins',sans-serif;
+    font-weight: 600;
+    font-size: 1.75rem;
+    color: #F8F8F8;
+}
+
+.dog-tagline {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 1.25rem;
+    color: #B7B7B7;
+    padding-top: .5em;
+    padding-bottom: 1em;
+}
+
+.hidden {
+    display: none;
+}
+
+#like-badge {
+    width: 50%;
+    position: absolute;
+    top: 15%;
+    left: 5%;
+    transform: rotate(-25deg);
+} 
+
+#nope-badge {
+    width: 50%;
+    position: absolute;
+    top: 15%;
+    left: 5%;
+    transform: rotate(-25deg);
+}
+
+/* Actions Section */
+
+.actions {
+    text-align: center;
+    background-color: linear-gradient(180deg, #ffffff 0%, #F6F7Fb 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+}
+
+.cross-icon,
+.heart-icon {
+    background-color: #fff;
+    border: none;
+    border-radius: 50%;
+    box-shadow: 0px 10px 20px #E9E9EA;
+    padding: .75em;
+    
+}
+
+button#cross-btn,
+button#heart-btn {
+    background-color: #fff;
+    border: none;
+}
+
+.cross-icon:hover {
+    background-color: #FFE7Ef;
+    box-shadow: 0px 10px 20px #EDD9DF;
+}
+
+.heart-icon:hover {
+    background-color:rgba(219, 255, 244, 1);
+    box-shadow: 0px 10px 20px #CCF1E6;
+}
+
+
+.end-message {
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 2em;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
