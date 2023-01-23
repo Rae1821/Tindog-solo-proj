@@ -1,4 +1,3 @@
-// Remember to import the data and Dog class!
 
 import Dog from './Dog.js'
 import dogsData from './data.js'
