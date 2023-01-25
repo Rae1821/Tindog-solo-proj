@@ -20,7 +20,6 @@ render();
 
 let isWaiting = false;
 
-
 const endMessage = `
     <div class="end-message">
     <p>Stay tuned for more dogs! 🐶</p>
